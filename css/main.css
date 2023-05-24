@@ -82,15 +82,15 @@ form a:link{
     background-color: transparent;
     text-decoration: none;
 }
+form a:visited{
+    color: #5fbce0;
+    background-color: transparent;
+    text-decoration: none; 
+}
 form a:hover{
     color: #C45531;
     background-color: transparent;
     text-decoration: underline;
-}
-form a:visited{
-    color: #4F9BB9;
-    background-color: transparent;
-    text-decoration: none; 
 }
 #forgot{
     float: right;
@@ -160,15 +160,14 @@ article a:link{
     background-color: whitesmoke;
     text-decoration: none;
 }
-article a:hover{
-    background-color: lightgray;
-}
 article a:visited{
     color: black;
     background-color: whitesmoke;
     text-decoration: none;
 }
-
+article a:hover{
+    background-color: lightgray;
+}
 footer a{
     font-size: 12px;
 }
@@ -177,15 +176,15 @@ footer a:link{
     background-color: transparent;
     text-decoration: none;
 }
-footer a:hover{
-    color: #C45531;
-    background-color: transparent;
-    text-decoration: underline;
-}
 footer a:visited{
     color: #4F9BB9;
     background-color: transparent;
     text-decoration: none;
+}
+footer a:hover{
+    color: #C45531;
+    background-color: transparent;
+    text-decoration: underline;
 }
 .bot{
     text-align: center;
